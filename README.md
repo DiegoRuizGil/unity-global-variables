@@ -6,6 +6,7 @@ If you're interested in basing your Unity project architecture on Scriptable Obj
 
 ## Table of Contents
 - [How to install](#how-to-install)
+- [How to use](#how-to-use)
     - [Variables references](#variables-references)
     - [Global variables](#global-variables)
     - [Components variables](#components-variables)
