@@ -15,7 +15,7 @@ If you're interested in basing your Unity project architecture on Scriptable Obj
 - [License](#license)
 
 ## How to install
-- Download the `Unity Package` from the `Releases` section.
+- Download the `Unity Package` from the `Releases` section or from the [`itch.io`](https://diegorg64.itch.io/unity-global-variables) page.
 - From the Unity project editor, drag and drop the Unity Package into the `Assets` folder.
 - Click `Import` in the displayed window.
 
