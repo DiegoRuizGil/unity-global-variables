@@ -1,5 +1,5 @@
 # Unity Global Variables
-This project implements a global varaibles system fo Unity using Scriptable Objects, allowing for easy access and management of variables across scenes scripts within the Unity Editor. Inspired by Ryan Hipple's talk [Unite Austin 2017 - Game Architecture with Scriptable Objects](https://www.youtube.com/watch?v=raQ3iHhE_Kk).
+This project implements a global varaibles system for Unity using Scriptable Objects, allowing for easy access and management of variables across scenes scripts within the Unity Editor. Inspired by Ryan Hipple's talk [Unite Austin 2017 - Game Architecture with Scriptable Objects](https://www.youtube.com/watch?v=raQ3iHhE_Kk).
 
 If you're interested in basing your Unity project architecture on Scriptable Objects, I recommend checking out this other project: [SO Game Events Architecture](https://github.com/DiegoRuizGil/SO-Game-Events-Architecture-Unity).
 
