@@ -1,0 +1,16 @@
+{
+    "name": "diegorg64.GlobalVariables.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7069b9c78f4d4d945a2244dfe0631dca"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

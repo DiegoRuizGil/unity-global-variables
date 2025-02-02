@@ -15,16 +15,16 @@ If you're interested in basing your Unity project architecture on Scriptable Obj
 - [License](#license)
 
 ## How to install
-- Download the `Unity Package` from the `Releases` section or from the [`itch.io`](https://diegorg64.itch.io/unity-global-variables) page.
-- From the Unity project editor, drag and drop the Unity Package into the `Assets` folder.
-- Click `Import` in the displayed window.
+- In Unity, navigate to `Window` -> `Package Manager`
+- In the Package Manager Window, click on the `+` sign in the top left corner and click on `Add Package from GIT url`
+- Type the repository URL in the text box: `https://github.com/DiegoRuizGil/unity-global-variables.git`
 
 ## How to use
 
 ### Variables references
 `Variable references` represent a reference to a variable, which can be a `constant`, `global variable`, or `component variable`. Users can select the variable type from the inspector.
 
-![Reference value type](Images/reference-value-type.gif)
+![Reference value type](reference-value-type.gif)
 
 In code, these variables can be used like any other, with available types including `bool`, `float`, `int` and `string`. To modify the value of a reference, access its `Value` attribute, but to retrie its value, simply use the reference itself (the class defines an implicit operator that returns its value).
 
@@ -33,14 +33,14 @@ Global variables are `Scriptable Objects` created within our Unity project, allo
 
 To create a new variable, right click in the `Project` window and navigate to `Create` -> `Game Events`, and select the type of variable.
 
-![Variable creation](Images/variable-creation.png)
+![Variable creation](variable-creation.png)
 
 ### Components variables
 Component variables are `MonoBehaviour` scripts, meaning they can be associated with a GameObject. Unlike global variables, which are accessiable across all scenes, component variables are limited to interactions between objects within the same scene.
 
 Using component variables can be usefull if we want ot avoid creating too many scriptable objects in our project.
 
-![Component variable](Images/component-variable.png)
+![Component variable](component-variable.png)
 
 ### Listening for changes
 When te value of a reference is updated, we can be notified using the `AddListener` function. The function passed as an argument must have a parameter of the same type as the reference, as this will be the updated value. To remove the listener, we can use the `RemoveListener` function.
@@ -67,7 +67,7 @@ public class Test : MonoBehaviour
 ### Debugging
 You can update de value of a global or component variable by clicking on the `Update` button in the inspector. This will help in debugging whether the listeners are responding correctly, whitout requiring to execute the code needed to trigger it.
 
-![Debugging](Images/debugging.gif)
+![Debugging](debugging.gif)
 
 
 ## License

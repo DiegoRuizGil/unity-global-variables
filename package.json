@@ -1,0 +1,16 @@
+{
+    "name": "com.diegorg64.global-variables",
+    "version": "1.0.0",
+    "displayName": "Global Variables",
+    "description": "Global variables system for Unity using Scriptable Objects",
+    "keywords": [
+        "scriptable-objects",
+        "events",
+        "variables"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "Diego Ruiz Gil",
+        "email": "diegoruiz037@gmail.com"
+    }
+}
